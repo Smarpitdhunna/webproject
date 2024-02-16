@@ -1,0 +1,366 @@
+.parent{
+    width: 100%;
+    height: 3700px;
+}
+.child1{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.number{
+    margin-left: 30%;
+}
+.email{
+    margin-left: 30%;
+}
+.image{
+    background-image: url(./image/IMG_5226.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+.child2{
+    display: flex;
+}
+.logo{
+    font-size: larger;
+    color: aliceblue;
+    font-weight: bolder;
+    margin: 19px;
+}
+.nav{
+    margin-left: 50%;
+    margin-top: 19px;
+}
+a{
+   padding: 10px;
+   color: aliceblue;
+   text-decoration: none;
+   font-weight: bolder;
+     
+}
+a:hover{
+    background-color: rgb(41, 38, 38);
+    opacity: 0.8;
+}
+.child3{
+margin: 110px;
+padding: 45px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 550;
+}
+.head1{
+    color: aliceblue;
+}
+.head2{
+    color:#f1db25
+}
+.para1{
+    color: aliceblue;
+    margin-top: 18px;
+}
+button{
+    padding:9px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.bt1{
+    background-color: aliceblue;
+}
+.bt1{
+    background-color: #f1db25;
+}
+.bt1:hover{
+    background: none;
+    color: aliceblue;
+    transition-duration: 0.8s;
+    border-color: aliceblue;
+
+}
+.bt2:hover{
+    transition-duration: 0.8s;
+    background: none;
+    color: #f1db25;
+    border-color: #f1db25;
+}
+.image2{
+    background-image: url(./image/IMG_5227.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    width: 470px;
+    position: relative;
+    left: 10%;
+    margin-top: 8%;
+
+}
+.grandchild1{
+    background-color: white;
+    height:210px ;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    left: 46%;
+    margin-top: -22%;
+
+}
+.question{
+    font-size: x-large;
+    font-weight: bold;
+}
+.who{
+    text-decoration: underline;
+    text-decoration-color: #f1db25;
+    text-decoration-thickness: 5px;
+}
+.bt3{
+   margin: 5px;
+   margin-top: -1px;
+   background-color: #f1db25;
+   color: white;
+   border-color: #f1db25;
+}
+.bt3:hover{
+    transition-duration: 0.8s;
+    color: #f1db25;
+    background-color: white;   
+}
+.child5{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-top: 100px;
+}
+.child5 > .head3{
+    color: white;
+    font-weight: bolder;
+    font-size:x-large;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+.er{
+    text-decoration: underline;
+    text-decoration-color: #f1db25;
+    text-decoration-thickness: 5px;
+}
+.home{
+    height: 300px;
+    width: 27%;
+    background-color: white;
+}
+.office{
+    height: 300px;
+    width: 27%;
+    background-color: white;
+}
+.bodyguard{
+    height: 300px;
+    width: 27%;
+    background-color: white;
+}
+.child5 > .grandchild2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 150px;
+    
+}
+.bt4{
+    
+    background-color: #f1db25;
+    color: white;
+    border-color: #f1db25;
+ }
+ .bt4:hover{
+     transition-duration: 0.8s;
+     color: #f1db25;
+     background-color: white; 
+ }
+ .child5 > .grandchild2 > .home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head4{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.p{
+    text-align: center;
+    padding: 5px;
+}
+.image3{
+    /* background-image: url(./image/client.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* height: 120px;
+    width: 160px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.head5{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.para2{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    
+}
+q{
+    margin-left: 150px;
+}
+.child7{
+    background-image: url(./image/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;  
+    display: flex;
+    align-items: center; 
+    flex-direction: column ; 
+}
+.grandchild3{
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.form{
+    margin-top: 80px;
+    padding: 50px;
+}
+#name,#email,#phone{
+        padding: 5px 0px;
+        text-align: start;
+        padding-right: 300px;
+        
+}
+#name,#email,#phone,#message{
+    margin: 8px;
+}
+#message{
+    padding: 50px;
+    padding-right: 250px;
+}
+
+#bt4{
+    margin-left: 8px;
+}
+.grandchild4{
+ background-color: aqua;
+ position: relative;
+ height: 400px;
+ width: 250%;   
+ background-image: url(./image/t1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.grandchild5{
+    background-color: aqua;
+    position: relative;
+    height: 400px;
+    width: 250%;  
+    background-image: url(./image/t2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grandchild6{
+    background-color: aqua;
+    position: relative;
+    height: 400px;
+    width: 250%;
+    background-image: url(./image/t3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+
+.child8{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    
+}
+.i{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    justify-content: center;
+    margin: 10px 20px;
+
+
+}
+.head6{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.name1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 290px;
+    background-color: rgba(3, 3, 3,0.8);
+      
+}
+
+.child9{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+.grandchild7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.greatgrandchild{
+    background-color:black;
+    height: 200px;
+    width: 20%;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.head7{
+font-size: x-large;
+font-weight: bold;
+color: white;
+margin-bottom: 50px;
+
+}
+.p1{
+    color: white;
+}
+.copy{
+    color: white;
+    text-align: center;
+}
