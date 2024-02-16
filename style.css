@@ -14,7 +14,7 @@
     margin-left: 30%;
 }
 .image{
-    background-image: url(./image/IMG_5226.JPG);
+    background-image: url(./IMG_5226.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -93,7 +93,7 @@ button{
     border-color: #f1db25;
 }
 .image2{
-    background-image: url(./image/IMG_5227.JPG);
+    background-image: url(./IMG_5227.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 310px;
@@ -234,7 +234,7 @@ q{
     margin-left: 150px;
 }
 .child7{
-    background-image: url(./image/contact-bg.jpg);
+    background-image: url(./contact-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -274,7 +274,7 @@ q{
  position: relative;
  height: 400px;
  width: 250%;   
- background-image: url(./image/t1.jpg);
+ background-image: url(./t1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -283,7 +283,7 @@ q{
     position: relative;
     height: 400px;
     width: 250%;  
-    background-image: url(./image/t2.jpg);
+    background-image: url(./t2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -292,7 +292,7 @@ q{
     position: relative;
     height: 400px;
     width: 250%;
-    background-image: url(./image/t3.jpg);
+    background-image: url(./t3.jpg);
     background-repeat: no-repeat; 
     background-size: cover;  
 }
